@@ -1,4 +1,4 @@
-import { Box, Flex, Text, Image, Link } from '@chakra-ui/react';
+import { Box, Flex, Text, Image, Link, Spacer } from '@chakra-ui/react';
 import github from '../../../assets/github.png';
 import gradcap from '../../../assets/gradcap.png';
 import linkedin from '../../../assets/linkedin.png';
@@ -11,11 +11,13 @@ const Header = () => {
       alignItems="center" 
       justifyContent="space-between"
     >
-      <Text  fontSize={34} pl={28} color="#0C0C0C" opacity="60%" fontWeight="extrabold">
+     
+      <Text  whiteSpace="nowrap" fontSize={34} pl={10} color="#0C0C0C" opacity="60%" fontWeight="extrabold">
         Gabriel Johnson
       </Text>
+      <Spacer/>
 
-      <Box display="flex" opacity="60%">
+      <Box display="flex" opacity="60%" pr={10}>
         <Link href="https://github.com/GabrielRJn" isExternal>
         <Image src={github} alt="GitHub" boxSize={16} marginX={2} p={2}/>
         </Link>
@@ -25,7 +27,7 @@ const Header = () => {
         <Link href="https://www.linkedin.com/in/gabriel-johnson-a294951b9/">
         <Image src={linkedin} alt="LinkedIn" boxSize={16} marginX={2} p={2} />
         </Link>
-      </Box>
+      </Box >
     </Flex>
   );
 };
