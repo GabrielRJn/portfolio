@@ -1,4 +1,4 @@
-import { Box, Flex, Text, Image } from '@chakra-ui/react';
+import { Box, Flex, Text, Image, Link } from '@chakra-ui/react';
 import github from '../../../assets/github.png';
 import gradcap from '../../../assets/gradcap.png';
 import linkedin from '../../../assets/linkedin.png';
@@ -16,9 +16,15 @@ const Header = () => {
       </Text>
 
       <Box display="flex" opacity="60%">
-        <Image src={github} alt="GitHub" boxSize="30px" marginX={2} />
-        <Image src={gradcap} alt="Graduation Cap" boxSize="30px" marginX={2} />
-        <Image src={linkedin} alt="LinkedIn" boxSize="30px" marginX={2} />
+        <Link href="https://github.com/GabrielRJn" isExternal>
+        <Image src={github} alt="GitHub" boxSize={16} marginX={2} p={2}/>
+        </Link>
+        <Link href="https://www.aru.ac.uk/study/undergraduate/computer-science-beng/module-details?mo=5da17682-02cc-44d0-b983-ec74c8f6ce96&co=e0e61042-5970-4752-b089-debb5809eb96&cp=3b74f0d0-cd5f-485e-9343-fbe10f8f9998" isExternal>
+        <Image src={gradcap} alt="Graduation Cap" boxSize={16} marginX={2} p={2} />
+        </Link>
+        <Link href="https://www.linkedin.com/in/gabriel-johnson-a294951b9/">
+        <Image src={linkedin} alt="LinkedIn" boxSize={16} marginX={2} p={2} />
+        </Link>
       </Box>
     </Flex>
   );
