@@ -1,8 +1,6 @@
-# React + Vite
+# React + Vite + Chakra UI portfolio website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Hello I'm currently designing my portfolio website. Will be done soon when I'm not coding other projects :)
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![image](https://github.com/GabrielRJn/portfolio-website/assets/88378835/9f7b55b7-6153-4300-9659-57e44a8a1ff2)
